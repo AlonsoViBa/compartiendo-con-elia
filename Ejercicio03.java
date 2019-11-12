@@ -1,11 +1,14 @@
 /*FUNCIONA PERFECTAMENTE*/
 package ExamenAlonsoVine;
 
+import java.util.Scanner;
+
 public class Ejercicio03
 {
 	public static void main(String[] args)
 	{
-		int altura = 3;
+		Scanner entry = new Scanner(System.in);
+		int altura = entry.nextInt();
 		
 		for(int fila = 1; fila <= altura; fila++)
 		{
