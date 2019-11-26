@@ -41,3 +41,4 @@ public class Ejercicio02 {
 	}//end mostrarResultados
 
 } //end main
+/*Este ejercicio no tendría que existir*/
