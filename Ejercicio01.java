@@ -11,10 +11,11 @@ import java.util.Scanner;
 
 public class Ejercicio01
 {
+	static Scanner entry = new Scanner(System.in);
 
 	public static void main(String[] args)
 	{
-		Scanner entry = new Scanner(System.in);
+		
 		boolean exit = false;
 		int num;
 		int numMax = 100;
@@ -22,7 +23,7 @@ public class Ejercicio01
 		//System.out.println(numSecreto);	tienes esto aqui para poder comprobar rapidamente si funciona
 		do {
 			do {
-				System.out.println("Acierte un valor del uno al cien.");
+				System.out.println("Acierte un valor del uno al cien");
 				num = entry.nextInt();
 				if (num < -1 || num > numMax) {
 					System.out.println("Error numero incorrecto");

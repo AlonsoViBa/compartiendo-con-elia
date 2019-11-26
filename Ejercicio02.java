@@ -1,4 +1,4 @@
-/*NO FUNCIONA*/
+/*FUNCIONA PERFECTAMENTE*/
 package ExamenAlonsoVine;
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Ejercicio02 {
 	public static void main(String[] args) {
 		int numero = pedirNumero();
 		boolean primo = calcularPrimo(numero);
-		mostrarResultados(numero, primo);
+		mostrarResultados(primo);
 
 	}// end main
 /////////////////////////////////////
@@ -30,7 +30,7 @@ public class Ejercicio02 {
 		return primo;
 	}
 ////////////////////////////////////////////////////////////////////
-	public static void mostrarResultados(int numero, boolean primo) {
+	public static void mostrarResultados(boolean primo) {
 		if (primo) {
 			System.out.println("ES PRIMO");
 		}
