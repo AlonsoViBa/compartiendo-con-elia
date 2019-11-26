@@ -1,5 +1,5 @@
 /*Este trabajo es el que tenemos que modificar en grupo
- * @Alonso viñe modificacion 14 - nov - 19*/
+ * @Alonso viï¿½e modificacion 14 - nov - 19*/
 package Examen;
 
 import java.util.Scanner;
@@ -37,3 +37,6 @@ public class ejer1 {
 		}while(seguir);
 	}
 }
+
+
+/*cambio Elia*/
